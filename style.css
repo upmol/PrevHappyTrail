@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&family=Train+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik+Distressed&family=Train+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #12372A;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+.main-tamplates{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo{
+    margin-top: -10%;
+    width: 40%;
+}
+.title{
+    margin-top: 5%;
+    font-family: "Train One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: #FBFADA;
+    letter-spacing: -0.10em;
+    text-align: center;
+}
+
+p{
+    font-size: 25px;
+    color: #ADBC9F;
+    text-align: center;
+    margin-top: -12%;
+    width: 40%;
+}
+a{
+    text-decoration: none;
+    color: #FBFADA;
+}
+
+.btn {
+    height: 3rem;
+    width: 15rem;
+    margin-top: 1rem;
+    background-color: #436850;
+    border-radius: 0.5rem;
+    border: none;
+    font-size: 1.2rem;
+    transition: all 400ms;
+    cursor: pointer;
+    box-shadow:
+      0 0 10px antiquewhite,
+      0 0 10px antiquewhite;
+    margin-bottom: 10%;
+  }
+
+  .btn:hover {
+    background-color: antiquewhite;
+    box-shadow: none;
+  }
+
+  @media(max-width: 760px){
+    .logo{
+        width: 80%;
+    }
+    p{
+        width: 80%;
+        font-size: 20px;
+        margin-top: -15%;
+    }
+  }
